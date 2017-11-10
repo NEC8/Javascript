@@ -5,8 +5,11 @@ window.addEventListener('load',iniciar);
         texto.addEventListener('mouseout',func6_1);
 	}
 	function func6(){
-		document.body.style.color="red";
+
+		document.querySelector("#c").style.color="red";
+		document.querySelector("#c").style.fontWeight = "bold";
 }
     function func6_1(){
-        document.body.style.color="black";
+        document.querySelector("#c").style.color="black";
+		document.querySelector("#c").style.fontWeight = "normal";
     }
