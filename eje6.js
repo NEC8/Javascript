@@ -5,9 +5,7 @@
 		boton.addEventListener('click',func6);
 	}
 	function func6(){
-		document.querySelector("p").style.fontSize="24px";
-		document.querySelector("p").style.color="green";
-		document.querySelector("p").style.fontfamily="Comic Sans MS";
+		var p=document.querySelector("p").id="color";
 	
 }
 /*var head= document.querySelector("head");

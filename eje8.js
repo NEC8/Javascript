@@ -17,6 +17,7 @@ function crearNodofila()
 	var col1=document.createElement("td");
 	var coltext = document.createTextNode("Row"+fil+ " cell1");
 	var coltext1 = document.createTextNode("Row"+fil+" cell2")
+	fil++;
 	col.appendChild(coltext);
 	col1.appendChild(coltext1);
 	TRelement.appendChild(col);
